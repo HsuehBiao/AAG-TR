@@ -4,11 +4,11 @@ clc; clear;
 addpath(genpath('./'));
 
 %% dataset
-ds={'HW'};
+ds={'BDGP_fea'};
 
 iter = 120;
-alpha=1e-1;
-gamma=1e0;
+alpha=1e-4;
+gamma=7e-5;
 num_runs = 1; % 运行次数
 
 for dsi =1:length(ds)
